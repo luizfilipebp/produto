@@ -1,6 +1,6 @@
-package br.com.fiap.produto;
+package br.com.fiap.usecase.produto;
 
-import br.com.fiap.model.Produto;
+import br.com.fiap.core.model.Produto;
 
 import java.util.Optional;
 

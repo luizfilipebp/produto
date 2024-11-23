@@ -2,8 +2,8 @@ package br.com.fiap.application.usecaseimpl.produto;
 
 import br.com.fiap.application.gateway.produto.AtualizarProdutoGateway;
 import br.com.fiap.application.gateway.produto.BuscarProdutoGateway;
-import br.com.fiap.model.Produto;
-import br.com.fiap.produto.AtualizarProdutoUseCase;
+import br.com.fiap.core.model.Produto;
+import br.com.fiap.usecase.produto.AtualizarProdutoUseCase;
 
 public class AtualizarProdutoUseCaseImpl implements AtualizarProdutoUseCase {
     private final BuscarProdutoGateway produtoGateway;

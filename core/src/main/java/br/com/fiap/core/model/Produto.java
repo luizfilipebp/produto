@@ -1,4 +1,4 @@
-package br.com.fiap.model;
+package br.com.fiap.core.model;
 
 import java.util.Objects;
 

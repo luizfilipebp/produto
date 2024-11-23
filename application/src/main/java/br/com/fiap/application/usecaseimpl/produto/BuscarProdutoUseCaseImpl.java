@@ -1,8 +1,8 @@
 package br.com.fiap.application.usecaseimpl.produto;
 
 import br.com.fiap.application.gateway.produto.BuscarProdutoGateway;
-import br.com.fiap.model.Produto;
-import br.com.fiap.produto.BuscarProdutoUseCase;
+import br.com.fiap.core.model.Produto;
+import br.com.fiap.usecase.produto.BuscarProdutoUseCase;
 
 import java.util.Optional;
 

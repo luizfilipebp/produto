@@ -2,7 +2,7 @@ package br.com.fiap.application.usecaseimpl.produto;
 
 import br.com.fiap.application.gateway.produto.BuscarProdutoGateway;
 import br.com.fiap.application.gateway.produto.ExcluirProdutoGateway;
-import br.com.fiap.produto.ExcluirProdutoUseCase;
+import br.com.fiap.usecase.produto.ExcluirProdutoUseCase;
 
 public class ExcluirProdutoUseCaseImpl implements ExcluirProdutoUseCase {
     private final BuscarProdutoGateway buscarProdutoGateway;

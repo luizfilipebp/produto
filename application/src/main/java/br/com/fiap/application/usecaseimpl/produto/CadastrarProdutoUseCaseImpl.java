@@ -2,8 +2,8 @@ package br.com.fiap.application.usecaseimpl.produto;
 
 import br.com.fiap.application.gateway.produto.BuscarProdutoGateway;
 import br.com.fiap.application.gateway.produto.CadastrarProdutoGateway;
-import br.com.fiap.model.Produto;
-import br.com.fiap.produto.CadastrarProdutoUseCase;
+import br.com.fiap.core.model.Produto;
+import br.com.fiap.usecase.produto.CadastrarProdutoUseCase;
 
 public class CadastrarProdutoUseCaseImpl implements CadastrarProdutoUseCase {
     private final CadastrarProdutoGateway cadastrarProdutoGateway;

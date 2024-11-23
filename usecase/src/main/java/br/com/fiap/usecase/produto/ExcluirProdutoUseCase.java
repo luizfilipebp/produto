@@ -1,6 +1,4 @@
-package br.com.fiap.produto;
-
-import br.com.fiap.model.Produto;
+package br.com.fiap.usecase.produto;
 
 public interface ExcluirProdutoUseCase {
     void excluir(Long id);

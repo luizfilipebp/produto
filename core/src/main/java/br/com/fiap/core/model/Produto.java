@@ -1,22 +1,23 @@
 package br.com.fiap.core.model;
 
+import java.math.BigDecimal;
 import java.util.Objects;
 
 public class Produto {
     private long id;
     private String nome;
     private String descricao;
-    private double preco;
+    private BigDecimal preco;
 
-    public Produto(long id, String nome, String descricao, double preco) {
+    public Produto(long id, String nome, String descricao, BigDecimal preco) {
         this.id = id;
         this.nome = validarNome(nome);
         this.descricao = validarDescricao(descricao);
         this.preco = validarPreco(preco);
     }
 
-    private static double validarPreco(double preco) {
-        if (preco < 0) {
+    private static BigDecimal validarPreco(BigDecimal preco) {
+        if (preco.compareTo(BigDecimal.ZERO) < 0) {
             throw new IllegalArgumentException("Preço não pode ser negativo");
         }
         return preco;
@@ -60,11 +61,11 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public double getPreco() {
+    public BigDecimal getPreco() {
         return preco;
     }
 
-    public void setPreco(double preco) {
+    public void setPreco(BigDecimal preco) {
         this.preco = preco;
     }
 

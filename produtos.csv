@@ -1,0 +1,11 @@
+ID do Produto,Nome do Produto,Categoria,Preço,Estoque,Descrição
+001,Smartphone Galaxy S23,Eletrônicos,5999.90,150,Smartphone com tela AMOLED de 6.1" câmera de 50MP e bateria de 4000mAh
+002,Notebook Dell Inspiron,Informática,3799.00,80,Notebook com processador Intel Core i7 16GB de RAM e 512GB SSD
+003,Fone de Ouvido Bluetooth,Áudio,299.90,200,Fone de ouvido sem fio com cancelamento de ruído e bateria de 20 horas
+004,Cadeira Gamer DXRacer,Games,1499.00,30,Cadeira ergonômica com apoio lombar ajustável e encosto reclinável
+005,TV 4K Samsung 50,Eletrodomésticos,2599.00,50,TV LED 4K de 50 polegadas com suporte a HDR e Smart TV integrado
+006,Mouse Logitech G502,Informática,199.90,300,Mouse gamer com 11 botões programáveis e sensor de 16.000 DPI
+007,Cafeteira Expresso Nespresso,Eletrodomésticos,799.00,100,Cafeteira expresso compacta fácil de usar com cápsulas Nespresso
+008,Smartwatch Apple Watch 8,Eletrônicos,4499.00,120,Smartwatch com monitoramento de saúde GPS e tela Retina sempre ligada
+009,Monitor LG UltraWide 34,Informática,2299.00,40,Monitor ultrawide de 34" com resolução 2560x1080 e conectividade USB-C
+010,Carregador Wireless 15W,Acessórios,129.90,500,Carregador sem fio de 15W compatível com smartphones e outros dispositivos

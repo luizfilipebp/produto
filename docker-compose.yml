@@ -1,0 +1,12 @@
+services:
+ db:
+   image: postgres:16.3
+   restart: always
+   ports:
+     - 5432:5432
+   environment:
+     POSTGRES_DB: produto
+     POSTGRES_USER: produto
+     POSTGRES_PASSWORD: root
+   volumes:
+     - ./database:/var/lib/postgresql/data

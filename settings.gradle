@@ -1,6 +1,5 @@
-rootProject.name = 'Produto'
+rootProject.name = 'msproduto'
 include 'core'
 include 'usecase'
 include 'application'
 include 'infrastructure'
-
